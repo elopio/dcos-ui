@@ -12,7 +12,7 @@ const METHODS_TO_BIND = [
   'handleFilterReset'
 ];
 
-class PodInstancesView extends React.Component {
+class PodInstancesTabView extends React.Component {
   constructor() {
     super(...arguments);
 
@@ -107,12 +107,12 @@ class PodInstancesView extends React.Component {
   }
 }
 
-PodInstancesView.contextTypes = {
+PodInstancesTabView.contextTypes = {
   router: React.PropTypes.func
 };
 
-PodInstancesView.propTypes = {
+PodInstancesTabView.propTypes = {
   pod: React.PropTypes.instanceOf(Pod)
 };
 
-module.exports = PodInstancesView;
+module.exports = PodInstancesTabView;
