@@ -397,9 +397,9 @@ var ServicesTable = React.createClass({
       <colgroup>
         <col />
         <col className="status-bar-column"/>
-        <col className="hidden-mini hidden-small" style={{width: '85px'}} />
-        <col className="hidden-mini hidden-small" style={{width: '75px'}} />
-        <col className="hidden-mini hidden-small" style={{width: '85px'}} />
+        <col className="hidden-small-down" style={{width: '65px'}} />
+        <col className="hidden-small-down" style={{width: '75px'}} />
+        <col className="hidden-small-down" style={{width: '65px'}} />
       </colgroup>
     );
   },
