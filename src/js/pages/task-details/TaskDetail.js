@@ -221,7 +221,7 @@ class TaskDetail extends mixin(InternalStorageMixin, TabsMixin, StoreMixin) {
     return (
       <DetailViewHeader
         icon={taskIcon}
-        iconClassName="icon-app-container  icon-image-container"
+        iconClassName="icon-app-container icon-image-container"
         subTitle={serviceStatus}
         subTitleClassName={serviceStatusClassSet}
         navigationTabs={navigationTabs}
@@ -282,7 +282,7 @@ class TaskDetail extends mixin(InternalStorageMixin, TabsMixin, StoreMixin) {
     }
 
     return (
-      <div>
+      <div className="flex flex-direction-top-to-bottom flex-item-grow-1 flex-item-shrink-1">
         <Breadcrumbs />
         {this.getBasicInfo()}
         {this.getSubView()}
